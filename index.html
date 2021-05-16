@@ -4,96 +4,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Cailin Bell Wold Web Design">   
-    <meta name="keywords" content="HTML, CSS, Portfolio, Seattle">
+    <meta name="keywords" content="Web-Design Portfolio, Seattle">
     <meta name="author" content="Cailin Bell Wold">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cailin Bell Wold</title>
     <!--Stylesheets-->
-    <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--Fonts-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Cinzel&display=swap" rel="stylesheet">
-    <!-- Icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Cinzel&display=swap" >
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Cailin Bell Wold</title>
 </head>
 
 <body>
-    <header class="header">
-        <section> 
-            <img src="assets/images/logo.png" alt="Cailin Bell Wold logo">
-            <h1>Cailin Bell Wold</h1>
-        </section>
-        <nav>
-            <ul>
-            <li><a href="#aboutID">About</a></li>
-            <li><a href="#workID">Work</a></li>
-            <li><a href="#contactID">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <header>
+    <nav class='navbar navbar-expand-lg navbar-light bg-light fixed-top px-3'>
+      <a class='navbar-brand' href='#'>Cailin Bell Wold<span class='sr-only'>Current</span></a>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+        <span class='navbar-toggler-icon'></span>
+      </button>
+      <!--TO DO: Get all nav-items (including icons) to collapse into button-->
+      <div class='collapse navbar-collapse' id='navbarToggler'>
+        <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
+            <li class='nav-item'><a class="nav-link" href='#about'>About</a></li>
+            <li class='nav-item'><a class='nav-link' href='#work'>Work</a></li>
+            <li class='nav-item'><a class='nav-link' href='#contact'>Contact</a></li>
+        </ul>
+
+        <ul class='navbar-nav d-flex flex-row'>
+            <li class='nav-item me-3 me-lg-0'>
+                <a class='nav-link' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
+                    <i class='fab fa-linkedin-in'></i>
+                </a>
+            </li>
+            <li class='nav-item me-3 me-lg-0'>
+                <a class='nav-link' href='https://github.com/CailinBellWold' target='_blank' rel='noreferrer noopener'> 
+                    <i class='fab fa-github'></i>
+                </a>
+            </li>
+            <li class='nav-item me-3 me-lg-0'>
+                <a class='nav-link' href='mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site' target='_blank' rel='noreferrer noopener'>
+                    <i class='fas fa-envelope'></i>
+                </a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
 <main>
-    <section class="about">
-        <section class="h2">
-            <h2 id="aboutID">About</h2>
+  <div class='container'>
+        <section id='about'>
+            <div class='row'>
+                <div class='col-md-3 gx-5 mb-4'>
+                    <figure class='figure-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light'>
+                    <img src='images/Headshot.jpg' alt='Headshot of Cailin wearing a black shirt and looking at the camera.' class='img-fluid rounded-circle mb-2'/>
+                    <a href='#!'>
+                      
+                      <figcaption class="figure-caption">Cailin Bell Wold,<br>Web Designer<br>Tel: 206.660.6505<br>E: cmbellwold@gmail.com</figcaption>
+                    <!-- <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div> -->
+                    </a>
+                    </figure>
+            </div>
+
+            <div class='col-md-9 gx-5 mb-4'>
+            <h4><strong>About</strong></h4>
+            <p class='text-muted'>
+                Hello and welcome! Let’s get to know each-other.
+                As a budding web-developer currently enrolled in the University of Washington’s Full Stack Boot Camp, I’m quickly building new competencies and will be seeking full-time employment starting in September of 2021.
+                With a background in nonprofit finance and administration and a passion for the arts, intersectional environmentalism, and tackling complex challenges, I have spent my career creating systems and order to support artists and others working in the humanity sector.
+                Coding allows me to be a more agile and versatile problem-solver, creating bridges between storytellers and audiences, problems and problem-solvers, and data and decision-makers. It opens doors and allows ideas to flourish and provides a more formally creative element in my professional toolkit.
+            </p>
+            <p><strong>Proficiencies</strong></p>
+              <ul class='text-muted'>
+                <li>Programming Languages: <em>JavaScript, HTML, and CSS</em></li>
+                <li>Libraries: <em>jQuery, Boostrap, Bulma, Moment.js, and Node.js</em></li>
+                <li>Version Control: <em>Git and GitHub</em></li>
+                <li>Other: <em>Visual Studio</em></li>
+              </ul>
+            
+            <p><strong>Is there a future for us?</strong></p>
+            <p class='text-muted'>
+                I look forward to joining a team in a medium-to-large company that will push me to learn quickly, provide a pool of inspirational mentors, and allow me to gain valuable experience. In the meantime, adding to this portfolio page will keep you abreast of my growing skillsets.
+                If you think we might work well together, please reach out! I look forward to hearing from you.
+            </p>
+            </div>
+            </div>
         </section>
-        <section>
-            <section>
-                <img src="assets/images/Headshot.jpg" alt="Headshot of Cailin wearing a black short and looking at the camera.">
-            </section>
-            <p>Hello and welcome! Let’s get to know each-other.</p>
-            <p>As a budding web-developer currently enrolled in the University of Washington’s Full Stack Boot Camp, I’m quickly building new competencies and will be seeking full-time employment starting in September of 2021.</p>
-            <p>With a background in nonprofit finance and administration and a passion for the arts, intersectional environmentalism, and tackling complex challenges, I have spent my career creating systems and order to support artists and others working in the humanity sector.</p>
-            <p>Coding allows me to be a more agile and versatile problem-solver, creating bridges between storytellers and audiences, problems and problem-solvers, and data and decision-makers. It opens doors and allows ideas to flourish and provides a more formally creative element in my professional toolkit.</p>
-            <p>I look forward to joining a team in a medium-to-large company that will push me to learn quickly, provide a pool of inspirational mentors, and allow me to gain valuable experience. In the meantime, adding to this portfolio page will keep you abreast of my growing skillsets.</p>
-            <p>If you think we might work well together, please reach out! I look forward to hearing from you.</p>
-        </section>        
+
+  <hr class='my-5'/>
+
+    <section id='work' class='text-center'>
+        <h4 class='mb-5'><strong>Work</strong></h4>
+        <div class='row'>
+            <div class='col-lg-4 col-md-12 mb-4'>
+            <div class='card'>
+            <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='images/MoodTracker.png' class='img-fluid'/>
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Mood Tracker</h5>
+                <p class='card-text'>
+                  HTML | CSS | JS | Bulma | API | jQuery
+                </p>
+                <a href='#!'' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='col-lg-4 col-md-6 mb-4'>
+            <div class='card'>
+              <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='images/CodeQuiz.png' class='img-fluid'/>
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Code Quiz</h5>
+                <p class='card-text'>
+                  HTML | CSS | JS | Bootstrap
+                </p>
+                <a href='https://cailinbellwold.github.io/Code-Quiz/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='col-lg-4 col-md-6 mb-4'>
+            <div class='card'>
+              <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='images/WeatherDashboard.png' alt='Weather Dashboard' class='img-fluid'/>
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);''></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Weather Dashboard</h5>
+                <p class='card-text'>
+                  HTML | CSS | JS | Bootstrap | API
+                </p>
+                <a href='https://cailinbellwold.github.io/Weather-Dashboard/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='col-lg-4 col-md-6 mb-4'>
+            <div class='card'>
+              <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='https://mdbootstrap.com/img/new/standard/nature/111.jpg' class='img-fluid' />
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Work Day Scheduler</h5>
+                <p class='card-text'>
+                  HTML | CSS | JS | Bootstrap | Moment
+                </p>
+                <a href='https://cailinbellwold.github.io/Work-Day-Scheduler/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='col-lg-4 col-md-6 mb-4'>
+            <div class='card'>
+              <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='images/PasswordGenerator.png' class='img-fluid'/>
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Password Generator</h5>
+                <p class='card-text'>
+                  HTML | CSS | JS
+                </p>
+                <a href='https://cailinbellwold.github.io/Password-Generator/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='col-lg-4 col-md-6 mb-4'>
+            <div class='card'>
+              <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+                <img src='images/Horiseon.jpg' class='img-fluid' />
+                <a href='#!'>
+                  <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
+                </a>
+              </div>
+              <div class='card-body'>
+                <h5 class='card-title'>Horiseon Accessibility Refactor</h5>
+                <p class='card-text'>
+                  HTML | CSS
+                </p>
+                <a href='https://cailinbellwold.github.io/HTML-CSS-and-Git-Code-Refactor/' class='btn btn-primary'>Button</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <hr class='my-5'/>
+  </div>
+</main>
+    <!-- <div class='down-arrow'>
+        <a class='arrow anchor' href='#about'></a>
+    </div>
+
+
+    <div class='down-arrow'>
+        <a class='arrow anchor' href='#work'></a>
+    </div> -->
+
+<footer class='bg-light text-lg-start'>
+    <section id='contact' class='text-center py-4 align-items-center'>
+        <h4>Contact</h4>
+    <a href='https://www.linkedin.com/in/cailinbellwold/' alt='LinkedIn' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
+        <i class="fab fa-linkedin-in"></i>
+    </a>
+
+    <a href='https://github.com/CailinBellWold' alt='GitHub' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
+        <i class='fab fa-github'></i>
+    </a>
+
+    <a href='mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site' alt='E-mail cmbellwold@gmail.com' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
+        <i class='fas fa-envelope'></i>
+    </a>
     </section>
 
-    <!-- Project Tiles -->
-    <section class="projects">
-        <section class="h2">
-            <h2 id="workID">Work</h2>
-        </section>
-
-        <section class="project-container">
-            <a class="tile" href="https://cailinbellwold.github.io/Homework01/" target="_blank" rel="noreferrer noopener">
-                <img class="preview-lg" src="assets/images/Project1-Thumb.jpg" alt="Horiseon Refactor">
-                    <p>Refactor<span> Accessibility CSS HTML</span></p>
-                </img>
-            </a>
-            <!--<section class="projects"> Don't yet link as I don't have enough projects complete. -->
-            <a class="tile">
-                <img class="preview-sm" src="assets/images/alexander-jawfox-oEpnMn1y-7A-unsplash.jpg" alt="Project2">
-                <p>Project 2<span>  CSS HTML JS</span></p>
-                </img>
-            </a>
-            <a class="tile">
-                <img class="preview-sm" src="assets/images/usgs-HcX4g7ccucA-unsplash.jpg" alt="Project3">
-                <p>Project 3<span>  UX</span></p>
-                </img>
-            </a>
-            <a class="tile">
-                <img class="preview-sm" src="assets/images/the-dancing-rain-07p6_tBLUOw-unsplash.jpg" alt="Project4">
-                    <p>Project 4<span>  REACT</span></p>
-                </img>
-            </a>
-        </section>
-    </section>
-</main> 
-
-<footer class="footer">
-    <section class="contact-container">
-        <h2 id="contactID">Contact</h2>
-        <a class="fa fa-linkedin fa-lg" href="https://www.linkedin.com/in/cailinbellwold/" target="_blank" rel="noreferrer noopener" alt="LinkedIn"></a>
-        <a class="fa fa-github fa-lg" href="https://github.com/CailinBellWold" target="_blank" rel="noreferrer noopener" alt="GitHub"></a>
-        <a class="fa fa-envelope fa-lg" href="mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site" alt="E-mail cmbellwold@gmail.com"></a> 
-    </section>
-    <section>
+    <div class='text-center p-3' style='background-color: rgba(0, 0, 0, 0.2);'>
         <p>Made for YOU!<br>©2021 Cailin M. Bell Wold</p>
-    </section>
+    </div>
 </footer>
 
+    <!-- jQuery library
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    JS library
+    <script src="./scripts/script.js"></script> -->
     </body>
 </html>
