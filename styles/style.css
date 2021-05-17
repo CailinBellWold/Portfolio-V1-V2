@@ -1,19 +1,17 @@
 :root {
-  --c--black: #000000;
   --c-dblue: #14213D;
   --c-lblue: #566a9c;
   --c-yellow: #FCA311;
   --c-red: #d62828;
   --c-red2: #ec4c4c;
-  --c-pink: #fa255e;
   --c-lgrey: #E5E5E5;
-  --c-white: #ffffff;
 
   --c--black: #000000;
   --c-pink: #fa255e;
   --c-taupe: #c39ea0;
   --c-neutral: #f8e5e5;
   --c-lneutral: #faf5f5;
+  --c-white: #ffffff;
 }
 
 html {
@@ -33,9 +31,9 @@ main {
   font-weight: bold;
 }
 
-h4 {
+/* h4 {
   color: var(--c-pink);
-}
+} */
 /* 
 .cmb-headshot {
   border: solid .2em var(--c-dblue);
