@@ -22,6 +22,7 @@
   --c-lblue: #566a9c;
   --c-dgrey: #24292e;
   --c-grey: #333a41;
+  --c-lgrey: #464d55;
 }
 
 html {
@@ -103,7 +104,7 @@ h3, h4, h5 {
 .btn-secondary:active,
 .btn-secondary:visited {
   background-color: var(--c-dgrey);
-  border: .1em solid var(--c-blue);
+  border: .1em solid var(--c-grey);
   border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-taupe);
   margin: 0 1.5em;
@@ -112,7 +113,7 @@ h3, h4, h5 {
 
 .btn-secondary:hover {
   background-color: var(--c-grey);
-  border: .1em solid var(--c-lblue);
+  border: .1em solid var(--c-lgrey);
   box-shadow: 8px 10px 10px var(--c-dtaupe);
   transform: scale(1.02);
 }
