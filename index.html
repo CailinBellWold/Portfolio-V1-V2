@@ -18,7 +18,7 @@
 
 <body>
   <header>
-    <nav class='navbar navbar-expand-lg navbar-light bg-light fixed-top px-3'>
+    <nav class='navbar navbar-expand-lg navbar-light fixed-top px-3 cmb-navbar'>
       <a class='navbar-brand' href='#'>Cailin Bell Wold<span class='sr-only'>Current</span></a>
       <button class='navbar-toggler' type='button' data-toggle='collapse' data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class='navbar-toggler-icon'></span>
@@ -31,7 +31,7 @@
             <li class='nav-item'><a class='nav-link' href='#contact'>Contact</a></li>
         </ul>
 
-        <ul class='navbar-nav d-flex flex-row'>
+        <!-- <ul class='navbar-nav d-flex flex-row'>
             <li class='nav-item me-3 me-lg-0'>
                 <a class='nav-link' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
                     <i class='fab fa-linkedin-in'></i>
@@ -47,27 +47,34 @@
                     <i class='fas fa-envelope'></i>
                 </a>
             </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
   </header>
 
 <main>
   <div class='container'>
-        <section id='about'>
-            <div class='row'>
-                <div class='col-md-3 gx-5 mb-4'>
-                    <figure class='figure-image hover-overlay ripple shadow-2-strong" data-mdb-ripple-color="light'>
-                    <img src='images/Headshot-Square.jpg' alt='Headshot of Cailin wearing a black shirt and looking at the camera.' class='img-fluid rounded-circle mb-2'/>
-                    <a href='#!'>
-                      
-                      <figcaption class="figure-caption">Cailin Bell Wold,<br>Web Designer<br>Tel: 206.660.6505<br>E: cmbellwold@gmail.com</figcaption>
-                    <!-- <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div> -->
+    <section id='about'>
+      <div class='row'>
+        <div class='col-md-3 gx-5 mb-4'>
+          <figure class='figure-image'>
+          <img src='images/Headshot-Square.jpg' alt='Headshot of Cailin wearing a black shirt and looking at the camera.' class='img-fluid rounded-circle mb-3 cmb-headshot'/>
+          <a href='#!'></a>
+            <p class="about-contact ml-4"><span id="name">Cailin Bell Wold</span><br>Web Designer<br>(206) 660-6505<br>cmbellwold@gmail.com</p>
+                  <a class='cmb-fa px-4' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
+                    <i class='fab fa-linkedin-in'></i>
                     </a>
-                    </figure>
-            </div>
+                    <a class='cmb-fa px-3' href='https://github.com/CailinBellWold' target='_blank' rel='noreferrer noopener'> 
+                    <i class='fab fa-github'></i>
+                    </a>
+                    <a class='cmb-fa px-3' href='mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site' target='_blank' rel='noreferrer noopener'>
+                    <i class='fas fa-envelope'></i>
+                    </a>
+                  
+          </figure>
+        </div>
 
-            <div class='col-md-9 gx-5 mb-4'>
+            <div class='col-md-9  gx-5 mb-4'>
             <h4><strong>About</strong></h4>
             <p class='text-muted'>
                 Hello and welcome! Let’s get to know each-other.
@@ -90,7 +97,7 @@
             </p>
             </div>
             </div>
-        </section>
+    </section>
 
   <hr class='my-5'/>
 
@@ -219,23 +226,21 @@
     </div> -->
 
 <footer class='bg-light text-lg-start'>
-    <section id='contact' class='text-center py-4 align-items-center'>
+    <section id='contact' class='text-center py-4 align-items-center cmb-contact'>
         <h4>Contact</h4>
-    <a href='https://www.linkedin.com/in/cailinbellwold/' alt='LinkedIn' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
-        <i class="fab fa-linkedin-in"></i>
-    </a>
-
-    <a href='https://github.com/CailinBellWold' alt='GitHub' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
-        <i class='fab fa-github'></i>
-    </a>
-
-    <a href='mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site' alt='E-mail cmbellwold@gmail.com' class='btn btn-primary m-1' role='button' rel='noreferrer noopener' target='_blank'>
-        <i class='fas fa-envelope'></i>
-    </a>
+        <a class='cmb-fa px-4' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
+          <i class='fab fa-linkedin-in'></i>
+          </a>
+          <a class='cmb-fa px-3' href='https://github.com/CailinBellWold' target='_blank' rel='noreferrer noopener'> 
+          <i class='fab fa-github'></i>
+          </a>
+          <a class='cmb-fa px-3' href='mailto:cmbellwold@gmail.com?subject=Contact from Portfolio Site' target='_blank' rel='noreferrer noopener'>
+          <i class='fas fa-envelope'></i>
+          </a>
     </section>
 
-    <div class='text-center p-3' style='background-color: rgba(0, 0, 0, 0.2);'>
-        <p>Made for YOU!<br>©2021 Cailin M. Bell Wold</p>
+    <div class='text-center p-3 cmb-madeforyou'>
+        <p>Made for YOU! ©2021 Cailin M. Bell Wold</p>
     </div>
 </footer>
 
