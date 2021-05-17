@@ -6,12 +6,13 @@
     <meta name="description" content="Cailin Bell Wold Web Design">   
     <meta name="keywords" content="Web-Design Portfolio, Seattle">
     <meta name="author" content="Cailin Bell Wold">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <!--Stylesheets-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Cinzel&display=swap" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@200;300;400;500&family=Roboto:wght@300;400;500;700&display=swap" >
     <link rel="stylesheet" href="styles/style.css">
     <title>Cailin Bell Wold</title>
 </head>
@@ -31,7 +32,7 @@
             <li class='nav-item'><a class='nav-link' href='#contact'>Contact</a></li>
         </ul>
 
-        <!-- <ul class='navbar-nav d-flex flex-row'>
+        <ul class='navbar-nav d-flex flex-row'>
             <li class='nav-item me-3 me-lg-0'>
                 <a class='nav-link' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
                     <i class='fab fa-linkedin-in'></i>
@@ -47,7 +48,7 @@
                     <i class='fas fa-envelope'></i>
                 </a>
             </li>
-        </ul> -->
+        </ul>
       </div>
     </nav>
   </header>
@@ -60,7 +61,7 @@
           <figure class='figure-image'>
           <img src='images/Headshot-Square.jpg' alt='Headshot of Cailin wearing a black shirt and looking at the camera.' class='img-fluid rounded-circle mb-3 cmb-headshot'/>
           <a href='#!'></a>
-            <p class="about-contact ml-4"><span id="name">Cailin Bell Wold</span><br>Web Designer<br>(206) 660-6505<br>cmbellwold@gmail.com</p>
+            <p class="about-contact ml-4"><span id="name">Cailin Bell Wold</span><br>Full Stack Web Developer<br>(206) 660-6505<br>cmbellwold@gmail.com</p>
                   <a class='cmb-fa px-4' href='https://www.linkedin.com/in/cailinbellwold/' target='_blank' rel='noreferrer noopener'>
                     <i class='fab fa-linkedin-in'></i>
                     </a>
@@ -102,26 +103,24 @@
   <hr class='my-5'/>
 
     <section id='work' class='text-center'>
-        <h3 class='mb-5'><strong>Work</strong></h3>
+      <h3 class='mb-5'><strong>Work</strong></h3>
         <div class='row'>
-            <div class='col-lg-4 col-md-12 mb-4'>
+          <div class='col-lg-4 col-md-12 mb-4'>
             <div class='card'>
-            <div class='bg-image hover-overlay ripple' data-mdb-ripple-color='light'>
+              <div class='bg-image hover-overlay ripple shadow-1-strong rounded' data-mdb-ripple-color='light'>
                 <img src='images/MoodTracker.png' class='img-fluid'/>
                 <a href='#!'>
                   <div class='mask' style='background-color: rgba(251, 251, 251, 0.15);'></div>
                 </a>
               </div>
-              <div class='card-body'>
-                <h5 class='card-title'>Mood Tracker</h5>
-                <p class='card-text'>
-                  HTML | CSS | JS | jQuery | Bulma | API 
-                </p>
+            <div class='card-body'>
+              <h5 class='card-title'>Mood Tracker</h5>
+                <p class='card-text'>HTML | CSS | JS | jQuery | Bulma | API</p>
                 <a href='https://cailinbellwold.github.io/Mood-Tracker/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Deployed App</a>
                 <a href='https://github.com/CailinBellWold/Mood-Tracker' target='_blank' rel='noreferrer noopener' class='btn btn-secondary'>GitHub Repo</a>
-              </div>
             </div>
           </div>
+        </div>
 
           <div class='col-lg-4 col-md-6 mb-4'>
             <div class='card'>
@@ -214,7 +213,7 @@
                   HTML | CSS
                 </p>
                 <a href='https://cailinbellwold.github.io/HTML-CSS-and-Git-Code-Refactor/' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>Deployed App</a>
-                <a href='https://github.com/CailinBellWold/HTML-CSS-and-Git-Code-Refactor' target='_blank' rel='noreferrer noopener' class='btn btn-primary'>GitHub Repo</a>
+                <a href='https://github.com/CailinBellWold/HTML-CSS-and-Git-Code-Refactor' target='_blank' rel='noreferrer noopener' class='btn btn-secondary'>GitHub Repo</a>
               </div>
             </div>
           </div>
@@ -250,10 +249,9 @@
         <p>Made for YOU! ©2021 Cailin M. Bell Wold</p>
     </div>
 </footer>
-
-    <!-- jQuery library
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    JS library
-    <script src="./scripts/script.js"></script> -->
+      <!--Scripts for Bootstrap-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>

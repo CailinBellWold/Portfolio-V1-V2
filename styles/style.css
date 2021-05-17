@@ -1,25 +1,27 @@
 :root {
-
   --c-yellow: #FCA311;
   --c-red: #d62828;
   --c-red2: #ec4c4c;
   --c-lgrey: #E5E5E5;
 
   --c--black: #000000;
-  --c-pink: #fa255e;
-  --c-dpink: #df003b;
+  /* --c-pink: #fa255e; */
+  --c-pink: #0a111f;
+  --c-dpink: #f30343;
   --c-dtaupe: #947879;
   --c-taupe: #c39ea0;
   --c-neutral: #f8e5e5;
   --c-lneutral: #faf5f5;
   --c-llneutral: #fdf9f9;
   --c-white: #ffffff;
-  --c-dblue: #14213d;
+  
 
   --c-ddblue: #0a111f;
-  --c-dgrey: #24292e;
-  --c-blue: #3b465d;
+  --c-dblue: #14213d;
+   --c-blue: #3b465d;
   --c-lblue: #566a9c;
+  --c-dgrey: #24292e;
+  --c-grey: #333a41;
 }
 
 html {
@@ -28,6 +30,7 @@ html {
 
 body {
   background-color: var(--c-llneutral);
+  font-family: 'Poppins', sans-serif;
 }
 
 main {
@@ -39,16 +42,13 @@ main {
   font-weight: bold;
 }
 
-h3 {
-  text-shadow: 2px 1px var(--c-neutral) !important;
-}
-
-h4 {
-  text-shadow: 2px 1px var(--c-neutral) !important;
+h3, h4, h5 {
+  font-family: 'Roboto', serif;
 }
 
 .cmb-headshot {
   box-shadow: 8px 10px 10px var(--c-taupe);
+  border: .05em solid var(--c-neutral);
 }
 
 .about-contact {
@@ -58,45 +58,76 @@ h4 {
 .cmb-fa {
   text-decoration: none;
   color: var(--c-pink);
+  font-size: 1.5em;
 }
 
-.btn-primary {
+.cmb-fa:hover {
+  /* text-decoration: none; */
+  color: var(--c-dpink);
+  text-shadow: 8px 10px 10px var(--c-taupe);
+}
+
+.card {
+  border-radius: 4px;
+  background: var(--c-neutral);
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+  transition: .4s transform cubic-bezier(.155,1.105,.295,1.12),.4s box-shadow,.4s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  opacity: 0.8;
+}
+
+.card:hover {
+  transform: scale(1.003);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  opacity: 1;
+}
+
+.btn-primary,
+.btn-primary:active,
+.btn-primary:visited {
   background-color: var(--c-pink);
   border: .1em solid var(--c-taupe);
   border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-taupe);
-  margin: 0 2em;
-
+  margin: 0 1em;
+  cursor: pointer;
 }
+
 .btn-primary:hover {
-  background-color: var(--c-dpink);
-  border: .1em solid var(--c-pink);
-  border-radius: 10px;
+  background-color: var(--c-dblue);
+  border: .1em solid var(--c-blue);
   box-shadow: 8px 10px 10px var(--c-dtaupe);
-  margin: 0 2em;
-
+  transform: scale(1.02);
 }
 
-.btn-secondary {
+.btn-secondary,
+.btn-secondary:active,
+.btn-secondary:visited {
   background-color: var(--c-dgrey);
   border: .1em solid var(--c-blue);
   border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-taupe);
-  margin: 0 2em;
+  margin: 0 1.5em;
+  cursor: pointer;
 }
 
 .btn-secondary:hover {
-  background-color: var(--c-dgrey);
+  background-color: var(--c-grey);
   border: .1em solid var(--c-lblue);
-  border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-dtaupe);
-  margin: 0 2em;
+  transform: scale(1.02);
 }
 
 .cmb-navbar {
 background-image: linear-gradient(var(--c-lneutral), var(--c-neutral));
+box-shadow: 8px 10px 20px var(--c-dtaupe);
 }
 
+.navbar-brand {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: var(--c-dpink) !important;
+  text-shadow: 8px 10px 10px var(--c-taupe);
+}
 .cmb-contact {
   background-color: var(--c-neutral);
 }
