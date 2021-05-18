@@ -131,13 +131,59 @@ h3, h4, h5 {
   color: var(--c-lneutral);
 }
 
-/* @media screen and (max-width: 1446px) {
+@media screen and (max-width: 480px) {
   body {
-    margin: 0 8%;
+    background-color: var(--c-ddblue);
+    color: var(--c-llneutral);
+  }
+
+  .cmb-headshot {
+    box-shadow: 8px 10px 10px var(--c-blue);
+    border: .05em solid var(--c-blue);
+  }
+
+  h4 {
+    color: var(--c-dblue);
+  }
+
+  .cmb-fa {
+    text-decoration: none;
+    color: var(--c-llneutral);
+    font-size: 1.5em;
+  }
+  
+  .cmb-fa:hover {
+    color: var(--c-dpink);
+    text-shadow: 8px 10px 10px var(--c-blue);
+  }
+
+  .text-muted {
+    color: var(--c-llneutral) !important;
+  }
+
+  .cmb-navbar {
+    background-image: linear-gradient(var(--c-lneutral), var(--c-neutral));
+    box-shadow: 8px 10px 20px var(--c-blue);
+  }
+
+  .card-title,
+  .card-text {
+    color: var(--c-dblue);
+  }
+
+  footer .cmb-fa {
+    text-decoration: none;
+    color: var(--c-ddblue);
+    font-size: 1.5em;
+  }
+  
+  footer .cmb-fa:hover {
+    color: var(--c-dpink);
+    text-shadow: 8px 10px 10px var(--c-taupe);
   }
 }
 
-@media screen and (max-width: 1173px) {
+/* @media screen and (max-width: 1173px) {
   body {
     margin: 0 2%;
   }
@@ -169,7 +215,7 @@ h3, h4, h5 {
     padding: 2% 0 2% 0;
     width: 100%;
   }
-} */
+} */ */
 
 /* When using `max-width` as the breakpoint, you must go from widest to narrowest to avoid conflict
 
