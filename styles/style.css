@@ -1,12 +1,5 @@
 :root {
-  --c-yellow: #FCA311;
-  --c-red: #d62828;
-  --c-red2: #ec4c4c;
-  --c-lgrey: #E5E5E5;
-
   --c--black: #000000;
-  /* --c-pink: #fa255e; */
-  --c-pink: #0a111f;
   --c-dpink: #f30343;
   --c-dtaupe: #947879;
   --c-taupe: #c39ea0;
@@ -14,11 +7,9 @@
   --c-lneutral: #faf5f5;
   --c-llneutral: #fdf9f9;
   --c-white: #ffffff;
-  
-
   --c-ddblue: #0a111f;
   --c-dblue: #14213d;
-   --c-blue: #3b465d;
+  --c-blue: #3b465d;
   --c-lblue: #566a9c;
   --c-dgrey: #24292e;
   --c-grey: #333a41;
@@ -32,10 +23,23 @@ html {
 body {
   background-color: var(--c-llneutral);
   font-family: 'Poppins', sans-serif;
+  color: var(--c-ddblue);
 }
 
 main {
-  padding-top: 5rem;
+  padding-top: 8rem;
+}
+
+.cmb-navbar {
+  background-image: linear-gradient(var(--c-lneutral), var(--c-neutral));
+  box-shadow: 8px 10px 20px var(--c-dtaupe);
+}
+  
+.navbar-brand {
+  font-size: 1.7em;
+  font-weight: bold;
+  color: var(--c-dpink) !important;
+  text-shadow: 8px 10px 10px var(--c-taupe);
 }
 
 #name {
@@ -54,16 +58,16 @@ h3, h4, h5 {
 
 .about-contact {
   padding-left: 1em;
+  padding-top: 1em;
 }
 
 .cmb-fa {
   text-decoration: none;
-  color: var(--c-pink);
+  color: var(--c-ddblue);
   font-size: 1.5em;
 }
 
 .cmb-fa:hover {
-  /* text-decoration: none; */
   color: var(--c-dpink);
   text-shadow: 8px 10px 10px var(--c-taupe);
 }
@@ -85,11 +89,11 @@ h3, h4, h5 {
 .btn-primary,
 .btn-primary:active,
 .btn-primary:visited {
-  background-color: var(--c-pink);
+  background-color: var(--c-ddblue);
   border: .1em solid var(--c-taupe);
   border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-taupe);
-  margin: 0 1em;
+  margin: .5em 1em 1em 0;
   cursor: pointer;
 }
 
@@ -97,7 +101,7 @@ h3, h4, h5 {
   background-color: var(--c-dblue);
   border: .1em solid var(--c-blue);
   box-shadow: 8px 10px 10px var(--c-dtaupe);
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
 .btn-secondary,
@@ -107,7 +111,7 @@ h3, h4, h5 {
   border: .1em solid var(--c-grey);
   border-radius: 10px;
   box-shadow: 8px 10px 10px var(--c-taupe);
-  margin: 0 1.5em;
+  margin: .5em 1em 1em 0;
   cursor: pointer;
 }
 
@@ -115,20 +119,9 @@ h3, h4, h5 {
   background-color: var(--c-grey);
   border: .1em solid var(--c-lgrey);
   box-shadow: 8px 10px 10px var(--c-dtaupe);
-  transform: scale(1.02);
+  transform: scale(1.04);
 }
 
-.cmb-navbar {
-background-image: linear-gradient(var(--c-lneutral), var(--c-neutral));
-box-shadow: 8px 10px 20px var(--c-dtaupe);
-}
-
-.navbar-brand {
-  font-size: 1.7em;
-  font-weight: bold;
-  color: var(--c-dpink) !important;
-  text-shadow: 8px 10px 10px var(--c-taupe);
-}
 .cmb-contact {
   background-color: var(--c-neutral);
 }
@@ -137,43 +130,6 @@ box-shadow: 8px 10px 20px var(--c-dtaupe);
   background-color: var(--c-taupe);
   color: var(--c-lneutral);
 }
-
-/* Font awesome icons */
-/* footer .fa {
-  text-align: center;
-  text-decoration: none;
-  font-size: 16em;
-  margin: 2%;
-  width: 4%;
-}
-
-footer .fa:hover {
-  color: var(--c-yellow);
-} */
-
-/* LinkedIn */
-/* footer .fa-linkedin {
-  position: relative;
-  color: var(--c-white);
-}
-
-/* GitHub */
-/* footer .fa-github {
-  position: relative;
-  color: var(--c-white);
-} */
-
-/* Email */
-/* footer .fa-envelope {
-  position: relative;
-  color: var(--c-white);
-} */
-
-/* footer .footer p {
-  margin-top: 10px;
-  color: var(--c-red2);
-  line-height: 20px;
-} */
 
 /* @media screen and (max-width: 1446px) {
   body {
