@@ -61,6 +61,15 @@ h3, h4, h5 {
   padding-top: 1em;
 }
 
+.resume {
+  text-decoration: none;
+  color: var(--c-dpink);
+}
+
+#resume-text {
+  color: var(--c-dpink);
+}
+
 .cmb-fa {
   text-decoration: none;
   color: var(--c-ddblue);
