@@ -4,11 +4,6 @@
 
 An **updated portfolio** and other professional materials, shared as I build toward being employer-competitive.
 
-### Motivation
-
-### Learning Targets
-
-
 ## Core Objectives Met
 
 1. Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
@@ -18,7 +13,9 @@ An **updated portfolio** and other professional materials, shared as I build tow
 
 ## Screen Shot
 
-<!-- ![My weather dashboard, including search field, display, and history.](./images/Weather-Dashboard-Screenshot01.png)  -->
+DEMO: *Portfolio homepage and functionality*.
+
+![My portfolio.](./images/PortfolioGif.gif) 
 
 ## Deployed Application
 
