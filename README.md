@@ -1,4 +1,5 @@
-# 08 Professional Materials
+# 16 Portfolio
+[![License: MIT](https://img.shields.io/github/license/CailinBellWold/Team-Profile-Generator?style=plastic)](https://opensource.org/licenses/MIT)
 
 ## Description
 
@@ -6,16 +7,14 @@ An **updated portfolio** and other professional materials, shared as I build tow
 
 ## Core Objectives Met
 
-1. Submit an updated portfolio featuring Project 1 and two exemplary homework assignments.
-2. Submit an updated GitHub profile with pinned repositories featuring Project 1 and two exemplary assignments.
+1. Submit an updated portfolio featuring at least three examples of student work from either deployed projects or homeworks.
+2. Submit an updated GitHub profile with pinned repositories featuring at least three examples of student work from either deployed projects or homeworks.
 3. Submit an updated resume.
-4. Submit an updated LinkedIn profile
+4. Submit an updated LinkedIn profile.
 
 ## Screen Shot
 
-DEMO: *Portfolio homepage and functionality*.
-
-![My portfolio.](./images/PortfolioGif.gif) 
+![My portfolio.](./images/CailinBellWoldPortfolioV3Screenshot.png) 
 
 ## Deployed Application
 
