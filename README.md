@@ -14,7 +14,7 @@ An **updated portfolio** and other professional materials, shared as I build tow
 
 ## Screen Shot
 
-![My portfolio.](./images/CailinBellWoldPortfolioV3Screenshot.png) 
+![My portfolio.](./images/CailinBellWoldPortfolioV3.png) 
 
 ## Deployed Application
 
